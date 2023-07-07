@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body main h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+} 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 10px;
+    display: inline-block;
+}
+header nav ul li a{
+    text-decoration: none;
+}
+
+.caja {
+    background-color: lightblue;
+    width: 500px;
+    height: 100px;
+    padding: 1px 50px 50px 20px;
+    margin-bottom: 20px;
+    border: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+.fototango img {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px;
+}
+.caja2 {
+    background-color: lightblue;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+.caja3 {
+    background-color: lightblue;
+    width: 500px;
+    height: 900px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.imagen img {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px;
+}
+
+.contacto {
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
